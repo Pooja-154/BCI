@@ -55,3 +55,31 @@ Phase 5: Real-Time System Development
 2. Lie Detection & Cognitive Analysis
 3. Smart Home & BCI Control
 
+
+**Models Used **
+
+**1. EEG Signal Processing & Feature Extraction**  
+**Traditional ML Models for EEG Feature Extraction & Classification**  
+   - **Support Vector Machines (SVMs)** – Used for EEG signal classification.  
+   - **Random Forest (RF)** – Helps in feature selection and pattern recognition.  
+   - **K-Nearest Neighbors (KNN)** – Can be used for initial EEG signal classification.  
+
+**Deep Learning for Feature Extraction**  
+   - **Convolutional Neural Networks (CNNs)** – Used for **spatial feature extraction** from EEG signal spectrograms.  
+   - **Autoencoders** – For **unsupervised feature learning** from EEG data.  
+
+** 2. Thought-to-Text Conversion**  
+**Sequence Learning Models**  
+   - **Recurrent Neural Networks (RNNs) / Long Short-Term Memory (LSTM)** – Handles sequential EEG patterns.  
+   - **Bidirectional LSTMs (Bi-LSTM)** – Enhances context understanding from EEG signals.  
+   - **Transformer-based Models (BERT / GPT)** – Used for text prediction from decoded EEG signals.  
+
+**End-to-End EEG-to-Text Model**  
+   - CNN + LSTM Hybrid (CNN extracts spatial features, LSTM models temporal dependencies).  
+   - Transformers (like **GPT-3 or fine-tuned BERT**) for **mapping EEG to words/sentences**.  
+
+**3. Text-to-Speech (TTS) Conversion**  
+**Speech Synthesis Models**  
+   - **Tacotron 2** – Converts text into natural human-like speech.  
+   - **WaveNet** – High-quality speech synthesis model.  
+   - **Whisper AI / VITS** – For realistic and **multi-lingual speech generation**.  
