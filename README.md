@@ -56,7 +56,7 @@ Phase 5: Real-Time System Development
 3. Smart Home & BCI Control
 
 
-##**Models Used**:
+**Models Used**:
 
 **1. EEG Signal Processing & Feature Extraction**  
 Traditional ML Models for EEG Feature Extraction & Classification
