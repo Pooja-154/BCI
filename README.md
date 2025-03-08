@@ -56,7 +56,8 @@ Phase 5: Real-Time System Development
 3. Smart Home & BCI Control
 
 
-**##Models Used
+##**Models Used**:
+
 **1. EEG Signal Processing & Feature Extraction**  
 Traditional ML Models for EEG Feature Extraction & Classification
    - **Support Vector Machines (SVMs)** – Used for EEG signal classification.  
@@ -67,7 +68,7 @@ Deep Learning for Feature Extraction
    - **Convolutional Neural Networks (CNNs)** – Used for **spatial feature extraction** from EEG signal spectrograms.  
    - **Autoencoders** – For **unsupervised feature learning** from EEG data.  
 
-** 2. Thought-to-Text Conversion**  
+**2. Thought-to-Text Conversion**
 Sequence Learning Models 
    - **Recurrent Neural Networks (RNNs) / Long Short-Term Memory (LSTM)** – Handles sequential EEG patterns.  
    - **Bidirectional LSTMs (Bi-LSTM)** – Enhances context understanding from EEG signals.  
